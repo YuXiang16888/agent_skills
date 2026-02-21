@@ -1,0 +1,220 @@
+{
+  "total_files": 12,
+  "total_settings": 10,
+  "detected_patterns": {},
+  "config_files": [
+    {
+      "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/jitpack.yml",
+      "relative_path": "jitpack.yml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": [
+        "PyYAML not installed"
+      ]
+    },
+    {
+      "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/package-lock.json",
+      "relative_path": "package-lock.json",
+      "type": "json",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 3,
+      "settings": [
+        {
+          "key": "name",
+          "value": "mockk",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "lockfileVersion",
+          "value": 3,
+          "type": "integer",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "requires",
+          "value": true,
+          "type": "boolean",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/_config.yml",
+      "relative_path": "_config.yml",
+      "type": "yaml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": [
+        "PyYAML not installed"
+      ]
+    },
+    {
+      "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/cloud-badge/package.json",
+      "relative_path": "cloud-badge/package.json",
+      "type": "json",
+      "purpose": "package_configuration",
+      "patterns": [],
+      "settings_count": 7,
+      "settings": [
+        {
+          "key": "name",
+          "value": "google-analytics-repo-badge",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "version",
+          "value": "0.1.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "description",
+          "value": "Using Google Cloud Functions to display data from Google Analytics as a README badge",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "main",
+          "value": "index.js",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "author",
+          "value": "Jiayu Yi <yi-jiayu@users.noreply.github.com>",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "license",
+          "value": "MIT",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        },
+        {
+          "key": "dependencies.googleapis",
+          "value": "^59.0.0",
+          "type": "string",
+          "env_var": null,
+          "description": ""
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/gradle/libs.versions.toml",
+      "relative_path": "gradle/libs.versions.toml",
+      "type": "toml",
+      "purpose": "general_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": [
+        "toml/tomli not installed"
+      ]
+    },
+    {
+      "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/.github/FUNDING.yml",
+      "relative_path": ".github/FUNDING.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": [
+        "PyYAML not installed"
+      ]
+    },
+    {
+      "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/.github/stale.yml",
+      "relative_path": ".github/stale.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": [
+        "PyYAML not installed"
+      ]
+    },
+    {
+      "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/.github/workflows/gemini-pr-review.yml",
+      "relative_path": ".github/workflows/gemini-pr-review.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": [
+        "PyYAML not installed"
+      ]
+    },
+    {
+      "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/.github/workflows/gradle.yml",
+      "relative_path": ".github/workflows/gradle.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": [
+        "PyYAML not installed"
+      ]
+    },
+    {
+      "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/.github/workflows/gemini-cli.yml",
+      "relative_path": ".github/workflows/gemini-cli.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": [
+        "PyYAML not installed"
+      ]
+    },
+    {
+      "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/.github/workflows/gemini-issue-scheduled-triage.yml",
+      "relative_path": ".github/workflows/gemini-issue-scheduled-triage.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": [
+        "PyYAML not installed"
+      ]
+    },
+    {
+      "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/.github/workflows/gemini-issue-automated-triage.yml",
+      "relative_path": ".github/workflows/gemini-issue-automated-triage.yml",
+      "type": "yaml",
+      "purpose": "ci_cd_configuration",
+      "patterns": [],
+      "settings_count": 0,
+      "settings": [],
+      "parse_errors": [
+        "PyYAML not installed"
+      ]
+    }
+  ],
+  "errors": []
+}

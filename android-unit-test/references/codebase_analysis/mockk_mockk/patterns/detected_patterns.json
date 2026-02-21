@@ -1,0 +1,767 @@
+[
+  {
+    "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmMain/java/io/mockk/proxy/jvm/ClassLoadingStrategyChooser.java",
+    "language": "Java",
+    "patterns": [
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.7,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmMain/java/io/mockk/proxy/jvm/ClassLoadingStrategyChooser.java",
+        "class_name": "ClassLoadingStrategyChooser",
+        "method_name": null,
+        "line_number": 9,
+        "evidence": [
+          "Class name suggests Strategy: ClassLoadingStrategyChooser"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "deep",
+    "pattern_summary": {
+      "Strategy": 1
+    }
+  },
+  {
+    "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmMain/java/io/mockk/proxy/jvm/advice/jvm/JvmMockKConstructorProxyAdvice.java",
+    "language": "Java",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmMain/java/io/mockk/proxy/jvm/advice/jvm/JvmMockKConstructorProxyAdvice.java",
+        "class_name": "JvmMockKConstructorProxyAdvice",
+        "method_name": null,
+        "line_number": 10,
+        "evidence": [
+          "Class name suggests Decorator: JvmMockKConstructorProxyAdvice"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "deep",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmMain/java/io/mockk/proxy/jvm/advice/jvm/JvmMockKHashMapStaticProxyAdvice.java",
+    "language": "Java",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmMain/java/io/mockk/proxy/jvm/advice/jvm/JvmMockKHashMapStaticProxyAdvice.java",
+        "class_name": "JvmMockKHashMapStaticProxyAdvice",
+        "method_name": null,
+        "line_number": 18,
+        "evidence": [
+          "Class name suggests Decorator: JvmMockKHashMapStaticProxyAdvice"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "deep",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmMain/java/io/mockk/proxy/jvm/advice/jvm/JvmMockKProxyAdvice.java",
+    "language": "Java",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmMain/java/io/mockk/proxy/jvm/advice/jvm/JvmMockKProxyAdvice.java",
+        "class_name": "JvmMockKProxyAdvice",
+        "method_name": null,
+        "line_number": 16,
+        "evidence": [
+          "Class name suggests Decorator: JvmMockKProxyAdvice"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "deep",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmMain/java/io/mockk/proxy/jvm/advice/jvm/JvmMockKProxyInterceptor.java",
+    "language": "Java",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmMain/java/io/mockk/proxy/jvm/advice/jvm/JvmMockKProxyInterceptor.java",
+        "class_name": "JvmMockKProxyInterceptor",
+        "method_name": null,
+        "line_number": 12,
+        "evidence": [
+          "Class name suggests Decorator: JvmMockKProxyInterceptor"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Adapter",
+        "category": "Structural",
+        "confidence": 0.55,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmMain/java/io/mockk/proxy/jvm/advice/jvm/JvmMockKProxyInterceptor.java",
+        "class_name": "JvmMockKProxyInterceptor",
+        "method_name": null,
+        "line_number": 12,
+        "evidence": [
+          "Implements interface: BaseAdvice",
+          "Has 3 interface methods"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 3,
+    "analysis_depth": "deep",
+    "pattern_summary": {
+      "Decorator": 1,
+      "Adapter": 1
+    }
+  },
+  {
+    "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmMain/java/io/mockk/proxy/jvm/advice/jvm/JvmMockKStaticProxyAdvice.java",
+    "language": "Java",
+    "patterns": [
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmMain/java/io/mockk/proxy/jvm/advice/jvm/JvmMockKStaticProxyAdvice.java",
+        "class_name": "JvmMockKStaticProxyAdvice",
+        "method_name": null,
+        "line_number": 15,
+        "evidence": [
+          "Class name suggests Decorator: JvmMockKStaticProxyAdvice"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 2,
+    "analysis_depth": "deep",
+    "pattern_summary": {
+      "Decorator": 1
+    }
+  },
+  {
+    "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmMain/java/io/mockk/proxy/jvm/dispatcher/JvmMockKDispatcher.java",
+    "language": "Java",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmMain/java/io/mockk/proxy/jvm/dispatcher/JvmMockKDispatcher.java",
+        "class_name": "JvmMockKDispatcher",
+        "method_name": null,
+        "line_number": 8,
+        "evidence": [
+          "Parameterized factory method: get",
+          "Parameterized factory method: constructorDone",
+          "Multiple factory methods: get, constructorDone"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 5,
+    "analysis_depth": "deep",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  },
+  {
+    "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmTest/java/io/mockk/proxy/JvmMockKProxyMakerTest.java",
+    "language": "Java",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmTest/java/io/mockk/proxy/JvmMockKProxyMakerTest.java",
+        "class_name": "JvmMockKProxyMakerTest",
+        "method_name": null,
+        "line_number": 21,
+        "evidence": [
+          "Factory method: makeProxy",
+          "Factory method: makeCancelableProxy",
+          "Factory method: StringBuilder",
+          "Multiple factory methods: makeProxy, makeCancelableProxy, StringBuilder"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmTest/java/io/mockk/proxy/JvmMockKProxyMakerTest.java",
+        "class_name": "JvmMockKProxyMakerTest",
+        "method_name": null,
+        "line_number": 21,
+        "evidence": [
+          "Class name suggests Decorator: JvmMockKProxyMakerTest"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmTest/java/io/mockk/proxy/JvmMockKProxyMakerTest.java",
+        "class_name": "JvmMockKProxyMakerTest",
+        "method_name": null,
+        "line_number": 21,
+        "evidence": [
+          "Has execute method: Call()"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.8500000000000001,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmTest/java/io/mockk/proxy/JvmMockKProxyMakerTest.java",
+        "class_name": "A",
+        "method_name": null,
+        "line_number": 41,
+        "evidence": [
+          "Strategy base with implementations: E1, E2, E3",
+          "Strategy interface method: a"
+        ],
+        "related_classes": [
+          "E1",
+          "E2",
+          "E3",
+          "F",
+          "F1"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.75,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmTest/java/io/mockk/proxy/JvmMockKProxyMakerTest.java",
+        "class_name": "E1",
+        "method_name": null,
+        "line_number": 147,
+        "evidence": [
+          "Part of strategy family with: E2, E3, F",
+          "Strategy interface method: a"
+        ],
+        "related_classes": [
+          "A"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.75,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmTest/java/io/mockk/proxy/JvmMockKProxyMakerTest.java",
+        "class_name": "E2",
+        "method_name": null,
+        "line_number": 177,
+        "evidence": [
+          "Part of strategy family with: E1, E3, F",
+          "Strategy interface method: a"
+        ],
+        "related_classes": [
+          "A"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.75,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmTest/java/io/mockk/proxy/JvmMockKProxyMakerTest.java",
+        "class_name": "E3",
+        "method_name": null,
+        "line_number": 206,
+        "evidence": [
+          "Part of strategy family with: E1, E2, F",
+          "Strategy interface method: a"
+        ],
+        "related_classes": [
+          "A"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.75,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmTest/java/io/mockk/proxy/JvmMockKProxyMakerTest.java",
+        "class_name": "F",
+        "method_name": null,
+        "line_number": 242,
+        "evidence": [
+          "Part of strategy family with: E1, E2, E3",
+          "Strategy interface method: a"
+        ],
+        "related_classes": [
+          "A",
+          "G"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.75,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmTest/java/io/mockk/proxy/JvmMockKProxyMakerTest.java",
+        "class_name": "F1",
+        "method_name": null,
+        "line_number": 296,
+        "evidence": [
+          "Part of strategy family with: E1, E2, E3",
+          "Strategy interface method: a"
+        ],
+        "related_classes": [
+          "A",
+          "G1"
+        ]
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmTest/java/io/mockk/proxy/JvmMockKProxyMakerTest.java",
+        "class_name": "ListAppendingHandler",
+        "method_name": null,
+        "line_number": 458,
+        "evidence": [
+          "Has execute method: Call()"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmTest/java/io/mockk/proxy/JvmMockKProxyMakerTest.java",
+        "class_name": "ListAppendingHandler",
+        "method_name": null,
+        "line_number": 458,
+        "evidence": [
+          "Class name suggests handler chain: ListAppendingHandler"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent/src/jvmTest/java/io/mockk/proxy/JvmMockKProxyMakerTest.java",
+        "class_name": "Call",
+        "method_name": null,
+        "line_number": 480,
+        "evidence": [
+          "Has execute method: Call()"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 16,
+    "total_functions": 53,
+    "analysis_depth": "deep",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1,
+      "Command": 3,
+      "Strategy": 6,
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/external/slicer/export/slicer/dex_ir_builder.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "Builder",
+        "category": "Creational",
+        "confidence": 0.7,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/external/slicer/export/slicer/dex_ir_builder.h",
+        "class_name": "Builder",
+        "method_name": null,
+        "line_number": 47,
+        "evidence": [
+          "Class name contains \"Builder\": Builder"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 14,
+    "analysis_depth": "deep",
+    "pattern_summary": {
+      "Builder": 1
+    }
+  },
+  {
+    "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/external/slicer/export/slicer/instrumentation.h",
+    "language": "C++",
+    "patterns": [
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/external/slicer/export/slicer/instrumentation.h",
+        "class_name": "Transformation",
+        "method_name": null,
+        "line_number": 32,
+        "evidence": [
+          "Strategy base with implementations: EntryHook, ExitHook, DetourHook"
+        ],
+        "related_classes": [
+          "EntryHook",
+          "ExitHook",
+          "DetourHook",
+          "AllocateScratchRegs"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/external/slicer/export/slicer/instrumentation.h",
+        "class_name": "EntryHook",
+        "method_name": null,
+        "line_number": 41,
+        "evidence": [
+          "Part of strategy family with: ExitHook, DetourHook, AllocateScratchRegs"
+        ],
+        "related_classes": [
+          "Transformation"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/external/slicer/export/slicer/instrumentation.h",
+        "class_name": "ExitHook",
+        "method_name": null,
+        "line_number": 84,
+        "evidence": [
+          "Part of strategy family with: EntryHook, DetourHook, AllocateScratchRegs"
+        ],
+        "related_classes": [
+          "Transformation"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.9,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/external/slicer/export/slicer/instrumentation.h",
+        "class_name": "DetourHook",
+        "method_name": null,
+        "line_number": 124,
+        "evidence": [
+          "Part of strategy family with: EntryHook, ExitHook, AllocateScratchRegs",
+          "Strategy base with implementations: DetourVirtualInvoke, DetourInterfaceInvoke"
+        ],
+        "related_classes": [
+          "Transformation",
+          "DetourVirtualInvoke",
+          "DetourInterfaceInvoke"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/external/slicer/export/slicer/instrumentation.h",
+        "class_name": "DetourVirtualInvoke",
+        "method_name": null,
+        "line_number": 146,
+        "evidence": [
+          "Part of strategy family with: DetourInterfaceInvoke"
+        ],
+        "related_classes": [
+          "DetourHook"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/external/slicer/export/slicer/instrumentation.h",
+        "class_name": "DetourInterfaceInvoke",
+        "method_name": null,
+        "line_number": 158,
+        "evidence": [
+          "Part of strategy family with: DetourVirtualInvoke"
+        ],
+        "related_classes": [
+          "DetourHook"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/external/slicer/export/slicer/instrumentation.h",
+        "class_name": "AllocateScratchRegs",
+        "method_name": null,
+        "line_number": 169,
+        "evidence": [
+          "Part of strategy family with: EntryHook, ExitHook, DetourHook"
+        ],
+        "related_classes": [
+          "Transformation"
+        ]
+      }
+    ],
+    "total_classes": 10,
+    "total_functions": 28,
+    "analysis_depth": "deep",
+    "pattern_summary": {
+      "Strategy": 7
+    }
+  },
+  {
+    "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/src/androidTest/java/io/mockk/proxy/android/AndroidMockKProxyMakerTest.java",
+    "language": "Java",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.8,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/src/androidTest/java/io/mockk/proxy/android/AndroidMockKProxyMakerTest.java",
+        "class_name": "AndroidMockKProxyMakerTest",
+        "method_name": null,
+        "line_number": 26,
+        "evidence": [
+          "Factory method: makeProxy",
+          "Factory method: StringBuilder",
+          "Multiple factory methods: makeProxy, StringBuilder"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Decorator",
+        "category": "Structural",
+        "confidence": 0.65,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/src/androidTest/java/io/mockk/proxy/android/AndroidMockKProxyMakerTest.java",
+        "class_name": "AndroidMockKProxyMakerTest",
+        "method_name": null,
+        "line_number": 26,
+        "evidence": [
+          "Class name suggests Decorator: AndroidMockKProxyMakerTest"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/src/androidTest/java/io/mockk/proxy/android/AndroidMockKProxyMakerTest.java",
+        "class_name": "AndroidMockKProxyMakerTest",
+        "method_name": null,
+        "line_number": 26,
+        "evidence": [
+          "Has execute method: Call()"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.8500000000000001,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/src/androidTest/java/io/mockk/proxy/android/AndroidMockKProxyMakerTest.java",
+        "class_name": "A",
+        "method_name": null,
+        "line_number": 50,
+        "evidence": [
+          "Strategy base with implementations: E1, E2, E3",
+          "Strategy interface method: a"
+        ],
+        "related_classes": [
+          "E1",
+          "E2",
+          "E3",
+          "F",
+          "F1"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.75,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/src/androidTest/java/io/mockk/proxy/android/AndroidMockKProxyMakerTest.java",
+        "class_name": "E1",
+        "method_name": null,
+        "line_number": 141,
+        "evidence": [
+          "Part of strategy family with: E2, E3, F",
+          "Strategy interface method: a"
+        ],
+        "related_classes": [
+          "A"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.75,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/src/androidTest/java/io/mockk/proxy/android/AndroidMockKProxyMakerTest.java",
+        "class_name": "E2",
+        "method_name": null,
+        "line_number": 173,
+        "evidence": [
+          "Part of strategy family with: E1, E3, F",
+          "Strategy interface method: a"
+        ],
+        "related_classes": [
+          "A"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.75,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/src/androidTest/java/io/mockk/proxy/android/AndroidMockKProxyMakerTest.java",
+        "class_name": "E3",
+        "method_name": null,
+        "line_number": 204,
+        "evidence": [
+          "Part of strategy family with: E1, E2, F",
+          "Strategy interface method: a"
+        ],
+        "related_classes": [
+          "A"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.75,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/src/androidTest/java/io/mockk/proxy/android/AndroidMockKProxyMakerTest.java",
+        "class_name": "F",
+        "method_name": null,
+        "line_number": 242,
+        "evidence": [
+          "Part of strategy family with: E1, E2, E3",
+          "Strategy interface method: a"
+        ],
+        "related_classes": [
+          "A",
+          "G"
+        ]
+      },
+      {
+        "pattern_type": "Strategy",
+        "category": "Behavioral",
+        "confidence": 0.75,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/src/androidTest/java/io/mockk/proxy/android/AndroidMockKProxyMakerTest.java",
+        "class_name": "F1",
+        "method_name": null,
+        "line_number": 298,
+        "evidence": [
+          "Part of strategy family with: E1, E2, E3",
+          "Strategy interface method: a"
+        ],
+        "related_classes": [
+          "A",
+          "G1"
+        ]
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/src/androidTest/java/io/mockk/proxy/android/AndroidMockKProxyMakerTest.java",
+        "class_name": "ListAppendingHandler",
+        "method_name": null,
+        "line_number": 401,
+        "evidence": [
+          "Has execute method: Call()"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "ChainOfResponsibility",
+        "category": "Behavioral",
+        "confidence": 0.6,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/src/androidTest/java/io/mockk/proxy/android/AndroidMockKProxyMakerTest.java",
+        "class_name": "ListAppendingHandler",
+        "method_name": null,
+        "line_number": 401,
+        "evidence": [
+          "Class name suggests handler chain: ListAppendingHandler"
+        ],
+        "related_classes": []
+      },
+      {
+        "pattern_type": "Command",
+        "category": "Behavioral",
+        "confidence": 0.5,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android/src/androidTest/java/io/mockk/proxy/android/AndroidMockKProxyMakerTest.java",
+        "class_name": "Call",
+        "method_name": null,
+        "line_number": 423,
+        "evidence": [
+          "Has execute method: Call()"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 14,
+    "total_functions": 48,
+    "analysis_depth": "deep",
+    "pattern_summary": {
+      "Factory": 1,
+      "Decorator": 1,
+      "Command": 3,
+      "Strategy": 6,
+      "ChainOfResponsibility": 1
+    }
+  },
+  {
+    "file_path": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android-dispatcher/src/main/java/io.mockk.proxy.android/AndroidMockKDispatcher.java",
+    "language": "Java",
+    "patterns": [
+      {
+        "pattern_type": "Factory",
+        "category": "Creational",
+        "confidence": 0.9,
+        "location": "/Users/yuxiang/Documents/AI/Skill_Seekers/.skillseeker-cache/android-unit-test/repos/0_mockk_mockk/modules/mockk-agent-android-dispatcher/src/main/java/io.mockk.proxy.android/AndroidMockKDispatcher.java",
+        "class_name": "AndroidMockKDispatcher",
+        "method_name": null,
+        "line_number": 29,
+        "evidence": [
+          "Parameterized factory method: get",
+          "Parameterized factory method: getMethod",
+          "Parameterized factory method: getOrigin",
+          "Multiple factory methods: get, getMethod, getOrigin"
+        ],
+        "related_classes": []
+      }
+    ],
+    "total_classes": 1,
+    "total_functions": 8,
+    "analysis_depth": "deep",
+    "pattern_summary": {
+      "Factory": 1
+    }
+  }
+]
